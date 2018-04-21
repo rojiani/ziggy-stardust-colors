@@ -1,0 +1,50 @@
+
+
+.syntax--source.syntax--js {
+  .syntax--keyword.syntax--operator {
+    color: @syntax-keyword;
+    &.syntax--accessor, &.syntax--assignment  {
+        color: @syntax-operator
+    }
+
+
+    &.syntax--quantifier.syntax--regexp {
+      color: @syntax-keyword;
+    }
+
+    &.syntax--delete,
+    &.syntax--in,
+    &.syntax--of,
+    &.syntax--instanceof,
+    &.syntax--new,
+    &.syntax--typeof,
+    &.syntax--void {
+      color: @syntax-keyword;
+    }
+  }
+
+  .syntax--variable {
+      color: @mono-1;
+      &.syntax--property {
+          color: @syntax-field;
+      }
+  }
+
+  .syntax--meta {
+    &.syntax--method-call,
+    &.syntax--function-call {
+      color: @syntax-field;
+    }
+  }
+
+  .syntax--support {
+    &.syntax--class {
+      color: @mono-1;
+    }
+  }
+  // .syntax--constant {
+  //     &.syntax--language {
+  //         color: @syntax-keyword;
+  //     }
+  // }
+}
