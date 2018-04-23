@@ -1,0 +1,20 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.1.5.3" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="71bfff" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="isBoldTabs" value="true" />
+    <option name="isCustomTreeIndentEnabled" value="true" />
+    <option name="customTreeIndent" value="3" />
+    <option name="accentColor" value="d2d8e3" />
+    <option name="compactSidebar" value="true" />
+    <option name="tabsHeight" value="25" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isCompactTables" value="true" />
+    <option name="darkTitleBar" value="true" />
+    <option name="compactDropdowns" value="true" />
+    <option name="upperCaseButtons" value="false" />
+  </component>
+</application>
