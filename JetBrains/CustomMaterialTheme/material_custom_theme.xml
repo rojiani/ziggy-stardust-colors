@@ -1,6 +1,6 @@
 <application>
   <component name="MaterialCustomThemeConfig">
-    <option name="treeSelectionColor" value="434a55" />
+    <option name="treeSelectionColor" value="2d323b" />
     <option name="highlightColor" value="343943" />
     <option name="secondBorderColor" value="5e6673" />
     <option name="tableSelectedColor" value="5e6673" />
