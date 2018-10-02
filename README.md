@@ -34,6 +34,9 @@ e.g.:
 (see [this link](https://intellij-support.jetbrains.com/hc/en-us/articles/206544519-Directories-used-by-the-IDE-to-store-settings-caches-plugins-and-logs) for exact locations)
 
 
+### iTerm ###
+[Instructions](https://github.com/mbadolato/iTerm2-Color-Schemes#installation-instructions)
+
 **TODO**:
 
 - [x] JetBrains - custom Material Theme
@@ -43,5 +46,6 @@ e.g.:
 - [ ] WebStorm
 - [ ] Atom
 - [ ] Sublime - Clean up current
+- [x] iTerm
 - [ ] Vim
 - [ ] Xcode
