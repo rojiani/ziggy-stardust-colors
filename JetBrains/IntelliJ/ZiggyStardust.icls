@@ -3,7 +3,7 @@
     <property name="created">2018-01-05T18:22:35</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.2.0.0</property>
-    <property name="modified">2018-08-13T21:04:13</property>
+    <property name="modified">2018-09-21T15:57:51</property>
     <property name="originalScheme">ZiggyStardust-Lighter2</property>
   </metaInfo>
   <colors>
@@ -15,7 +15,7 @@
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1c1c1c" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717" />
-    <option name="DOCUMENTATION_COLOR" value="1e2228" />
+    <option name="DOCUMENTATION_COLOR" value="21242b" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
     <option name="FILESTATUS_COPIED" value="659d9a" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -800,13 +800,13 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="d2d8e3" />
-        <option name="BACKGROUND" value="4c555c" />
+        <option name="BACKGROUND" value="111317" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="FOREGROUND" value="d2d8e3" />
-        <option name="BACKGROUND" value="4c555c" />
+        <option name="BACKGROUND" value="1d1f26" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">

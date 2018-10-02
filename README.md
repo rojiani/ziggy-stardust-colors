@@ -24,14 +24,12 @@ For macOS, this is located at:
 e.g.:  
 `~/Library/Preferences/IdeaIC2018.2/colors/`  
 
-The Themes work best with [Material Theme UI](http://www.material-theme.com/), and using the Custom UI Theme in `JetBrains/CustomMaterialTheme`. To install these, copy: `material_custom_theme.xml` and `material_theme.xml` to the `/options/` subdirectory of the preferences directory:
+The Themes work best with [Material Theme UI](http://www.material-theme.com/).
+This color scheme goes well with the _Atom One Dark_ UI Theme Setting.
+To switch to _Atom One Dark_ (after installing Material Theme UI, & restarting):
 
-e.g.:  
-`~/Library/Preferences/IntelliJIdea2018.1/options/` (Ultimate Edition), or   
-`~/Library/Preferences/IdeaIC2018.2/options/` (Community Edition), or  
-`~/Library/Preferences/PyCharmCE2018.2/options/` (PyCharm CE)  
-
-(see [this link](https://intellij-support.jetbrains.com/hc/en-us/articles/206544519-Directories-used-by-the-IDE-to-store-settings-caches-plugins-and-logs) for exact locations)
+Open Preferences => Appearance & Behavior => Material Theme
+and change _Selected Theme_ to Atom One Dark.
 
 ### Sublime Text ###
 Copy `ZiggyStardust.tmTheme` to `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
