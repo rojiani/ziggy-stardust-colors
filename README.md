@@ -3,13 +3,14 @@ Ziggy Stardust Color Theme
 
 ## Screenshots
 
-### IntelliJ
-
-Java:
+Java (IntelliJ):
 ![](assets/markdown-img-paste-20180423135855643.png)
 
-Kotlin:
+Kotlin (IntelliJ):
 ![](assets/markdown-img-paste-20180423140316976.png)
+
+Python (PyCharm):
+![](assets/markdown-img-paste-20181002002602966.png)
 
 ## Installation  
 
@@ -21,19 +22,24 @@ See [this link](https://intellij-support.jetbrains.com/hc/en-us/articles/2065445
 For macOS, this is located at:  
 `~/Library/Preferences/{PRODUCT}{VERSION}/colors/`  
 e.g.:  
-`~/Library/Preferences/IntelliJIdea2018.1/colors/`  
+`~/Library/Preferences/IdeaIC2018.2/colors/`  
 
-The Themes work best with [Material Theme UI](http://www.material-theme.com/), and using the Custom UI Theme in `JetBrains/CustomMaterialTheme`. To install these, copy `material_custom_theme.xml` and `material_theme.xml` to the `/options/` subdirectory of the preferences directory:
+The Themes work best with [Material Theme UI](http://www.material-theme.com/), and using the Custom UI Theme in `JetBrains/CustomMaterialTheme`. To install these, copy: `material_custom_theme.xml` and `material_theme.xml` to the `/options/` subdirectory of the preferences directory:
 
 e.g.:  
-`~/Library/Preferences/IntelliJIdea2018.1/options/`  
+`~/Library/Preferences/IntelliJIdea2018.1/options/` (Ultimate Edition), or   
+`~/Library/Preferences/IdeaIC2018.2/options/` (Community Edition), or  
+`~/Library/Preferences/PyCharmCE2018.2/options/` (PyCharm CE)  
+
+(see [this link](https://intellij-support.jetbrains.com/hc/en-us/articles/206544519-Directories-used-by-the-IDE-to-store-settings-caches-plugins-and-logs) for exact locations)
+
 
 **TODO**:
 
 - [x] JetBrains - custom Material Theme
 - [x] IntelliJ
 - [x] AndroidStudio
-- [ ] PyCharm
+- [x] PyCharm
 - [ ] WebStorm
 - [ ] Atom
 - [ ] Sublime - Clean up current
