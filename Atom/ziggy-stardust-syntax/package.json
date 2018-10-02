@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+        "spec": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/apm-install-dir-117318-5951-1a27x4h.ummwjyvi"
+    ]
+  ],
+  "_from": "../d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+  "_id": "ziggy-stardust-syntax@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ziggy-stardust-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+    "spec": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+  "_shasum": "5c08fd8541e4f967050f4daf67e4ecb78799199c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/d-117318-5951-yap822.ich4mwjyvi/package.tgz",
+  "_where": "/private/var/folders/_6/wkxh1z4j7nj6j1hxzkzk9ss98vkbp0/T/apm-install-dir-117318-5951-1a27x4h.ummwjyvi",
+  "bugs": {
+    "url": "https://github.com/rojiani/ziggy-stardust-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Contrast simple one dark syntax. Based on bluloco-dark theme.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rojiani/ziggy-stardust-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark",
+    "contrast",
+    "color",
+    "colorful"
+  ],
+  "license": "MIT",
+  "name": "ziggy-stardust-syntax",
+  "optionalDependencies": {},
+  "readme": "# ziggy-stardust-syntax theme\n\nContrast simple one dark syntax. Based on bluloco-dark theme.\n\n### Screenshots:\n\n##### javascript: ![1](https://cloud.githubusercontent.com/assets/13913581/24945661/da1460d6-1f68-11e7-8f96-c31d9c604271.png)\n\n##### css: ![2](https://cloud.githubusercontent.com/assets/13913581/24945662/da184dc2-1f68-11e7-9d41-6b5747bb69f1.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojiani/ziggy-stardust-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.3.4"
+}

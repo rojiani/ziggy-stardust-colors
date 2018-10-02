@@ -1,0 +1,25 @@
+
+
+.syntax--source.syntax--java {
+  .syntax--storage {
+    &.syntax--modifier.syntax--import {
+      color: @syntax-field;
+    }
+
+    &.syntax--type {
+      &.syntax--annotation {
+        color: @syntax-meta;
+      }
+    }
+  }
+}
+
+.syntax--source.syntax--java-properties {
+  .syntax--meta.syntax--key-pair {
+    color: @syntax-field;
+
+    & > .syntax--punctuation {
+      color: @syntax-operator;
+    }
+  }
+}

@@ -36,6 +36,11 @@ e.g.:
 ### Sublime Text ###
 Copy `ZiggyStardust.tmTheme` to `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
+### Atom ###
+Copy or symlink `Atom/ziggy-stardust-syntax`:
+```shell
+$ ln -s Atom/ziggy-stardust-syntax ~/.atom/packages
+```
 
 ### iTerm ###
 [Instructions](https://github.com/mbadolato/iTerm2-Color-Schemes#installation-instructions)
@@ -47,9 +52,10 @@ Copy `ZiggyStardust.tmTheme` to `~/Library/Application\ Support/Sublime\ Text\ 3
 - [x] AndroidStudio
 - [x] PyCharm
 - [ ] WebStorm
-- [ ] Atom
 - [x] iTerm
 - [ ] Vim
+- [x] Atom
+    - [ ] Clean up, publish as separate repo
 - [x] Sublime
     - [ ] Clean up
 - [ ] Xcode
