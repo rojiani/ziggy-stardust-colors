@@ -1,0 +1,22 @@
+{
+    "name": "ziggy-stardust",
+    "displayName": "Ziggy Stardust",
+    "description": "Dark color theme with vibrant colors.",
+    "version": "0.0.1",
+    "publisher": "nrojiani",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ziggy Stardust",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ziggy Stardust-color-theme.json"
+            }
+        ]
+    }
+}

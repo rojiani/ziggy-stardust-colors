@@ -42,6 +42,12 @@ Copy or symlink `Atom/ziggy-stardust-syntax`:
 $ ln -s Atom/ziggy-stardust-syntax ~/.atom/packages
 ```
 
+### Visual Studio Code ###
+Copy or symlink `VisualStudioCode/ziggy-stardust`:
+```shell
+$ ln -s VisualStudioCode/ziggy-stardust ~/.vscode/extensions
+```
+
 ### iTerm ###
 [Instructions](https://github.com/mbadolato/iTerm2-Color-Schemes#installation-instructions)
 
@@ -56,6 +62,8 @@ $ ln -s Atom/ziggy-stardust-syntax ~/.atom/packages
 - [ ] Vim
 - [x] Atom
     - [ ] Clean up, publish as separate repo
+- [x] VSCode
+    - [ ] Clean up, publish
 - [x] Sublime
     - [ ] Clean up
 - [ ] Xcode
