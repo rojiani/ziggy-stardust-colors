@@ -1,20 +1,21 @@
 <scheme name="ZiggyStardust" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-05-10T18:36:47</property>
+    <property name="created">2018-11-15T19:04:25</property>
     <property name="ide">AndroidStudio</property>
-    <property name="ideVersion">3.1.2.0</property>
-    <property name="modified">2018-05-10T18:37:24</property>
-    <property name="originalScheme">ZiggyStardust-v2</property>
+    <property name="ideVersion">3.2.1.0</property>
+    <property name="modified">2018-11-26T21:49:48</property>
+    <property name="originalScheme">ZiggyStardust_bg</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="444444" />
     <option name="BORDER_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="82b1ff" />
     <option name="CARET_ROW_COLOR" value="2d323d" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="292d35" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="282c34" />
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1c1c1c" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717" />
+    <option name="DOCUMENTATION_COLOR" value="21242b" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
     <option name="FILESTATUS_COPIED" value="659d9a" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -29,22 +30,25 @@
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_modifiedOutside" value="80cbc4" />
-    <option name="GUTTER_BACKGROUND" value="292d35" />
+    <option name="GUTTER_BACKGROUND" value="282c34" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff6480" />
     <option name="HTML_TAG_TREE_LEVEL1" value="ffe583" />
     <option name="HTML_TAG_TREE_LEVEL2" value="aada88" />
     <option name="HTML_TAG_TREE_LEVEL3" value="5fb9bc" />
     <option name="HTML_TAG_TREE_LEVEL4" value="aa95ff" />
     <option name="INDENT_GUIDE" value="" />
+    <option name="INFORMATION_HINT" value="1e2228" />
     <option name="LINE_NUMBERS_COLOR" value="676e82" />
-    <option name="METHOD_SEPARATORS_COLOR" value="303030" />
+    <option name="METHOD_SEPARATORS_COLOR" value="393d48" />
     <option name="MODIFIED_LINES_COLOR" value="aada88" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
-    <option name="RIGHT_MARGIN_COLOR" value="303030" />
+    <option name="QUESTION_HINT" value="7a82da" />
+    <option name="RIGHT_MARGIN_COLOR" value="676e82" />
     <option name="SELECTED_TEARLINE_COLOR" value="d9f5dd" />
     <option name="SELECTION_BACKGROUND" value="494e57" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="3b3b3b" />
     <option name="TEARLINE_COLOR" value="393d48" />
+    <option name="VISUAL_INDENT_GUIDE" value="343943" />
     <option name="WHITESPACES" value="414655" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d9f5dd" />
   </colors>
@@ -60,7 +64,11 @@
         <option name="FOREGROUND" value="8bcdef" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffe583" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="e889b5" />
@@ -113,12 +121,6 @@
         <option name="BACKGROUND" value="252c36" />
       </value>
     </option>
-    <option name="CLASS_NAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="7a82da" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
@@ -149,7 +151,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="6b7383" />
+        <option name="FOREGROUND" value="222325" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -258,7 +260,7 @@
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="5fb9bc" />
+        <option name="FOREGROUND" value="71bfff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -430,7 +432,9 @@
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ff6480" />
+      </value>
     </option>
     <option name="DEFAULT_COMMA">
       <value />
@@ -438,6 +442,7 @@
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="ff936a" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -469,6 +474,7 @@
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="71bfff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -478,12 +484,12 @@
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="c3d3de" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ff936a" />
+      </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
@@ -492,7 +498,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="f77669" />
+        <option name="FOREGROUND" value="aa95ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -545,7 +551,8 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="8bcdef" />
+        <option name="FOREGROUND" value="71bfff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -695,7 +702,6 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="babfc8" />
         <option name="BACKGROUND" value="343943" />
       </value>
     </option>
@@ -793,8 +799,26 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
+        <option name="FOREGROUND" value="d2d8e3" />
+        <option name="BACKGROUND" value="111317" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="d2d8e3" />
+        <option name="BACKGROUND" value="1d1f26" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
         <option name="FOREGROUND" value="71bfff" />
-        <option name="BACKGROUND" value="33393e" />
+        <option name="BACKGROUND" value="3f444c" />
+      </value>
+    </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff936a" />
       </value>
     </option>
     <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
@@ -921,11 +945,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="KOTLIN_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="71bfff" />
-      </value>
-    </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
         <option name="FOREGROUND" value="7a82da" />
@@ -988,24 +1007,25 @@
     </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8bcdef" />
+        <option name="FOREGROUND" value="ff6480" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
-        <option name="BACKGROUND" value="1fc700" />
+        <option name="BACKGROUND" value="456053" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="LINE_NONE_COVERAGE">
       <value>
-        <option name="BACKGROUND" value="ab1c07" />
+        <option name="BACKGROUND" value="722c40" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
+        <option name="BACKGROUND" value="45456a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1666,19 +1686,19 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d2d8e3" />
-        <option name="BACKGROUND" value="292d35" />
+        <option name="BACKGROUND" value="282c34" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="f8e71c" />
+        <option name="EFFECT_COLOR" value="f77669" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff6480" />
-        <option name="BACKGROUND" value="2a2c2f" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="TYPEDEF">

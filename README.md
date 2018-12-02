@@ -4,13 +4,13 @@ Ziggy Stardust Color Theme
 ## Screenshots
 
 Java (IntelliJ):
-![](assets/markdown-img-paste-20180423135855643.png)
 
 Kotlin (IntelliJ):
-![](assets/markdown-img-paste-20180423140316976.png)
+![](assets/markdown-img-paste-20181115184743121.png)
+
 
 Python (PyCharm):
-![](assets/markdown-img-paste-20181002002602966.png)
+TODO
 
 ## Installation  
 
@@ -33,6 +33,8 @@ and change _Selected Theme_ to Atom One Dark.
 
 ### Sublime Text ###
 Copy `ZiggyStardust.tmTheme` to `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+
+![](assets/sublime-java.png)
 
 ### Atom ###
 Copy or symlink `Atom/ziggy-stardust-syntax`:
