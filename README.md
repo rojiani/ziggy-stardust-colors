@@ -3,13 +3,16 @@ Ziggy Stardust Color Theme
 
 ## Screenshots
 
-Java (IntelliJ):
+Java (IntelliJ/AndroidStudio):
 
-Kotlin (IntelliJ):
+Kotlin (IntelliJ/AndroidStudio):
 ![](assets/markdown-img-paste-20181115184743121.png)
 
 
 Python (PyCharm):
+TODO
+
+WebStorm:
 TODO
 
 ## Installation  
@@ -22,7 +25,7 @@ See [this link](https://intellij-support.jetbrains.com/hc/en-us/articles/2065445
 For macOS, this is located at:  
 `~/Library/Preferences/{PRODUCT}{VERSION}/colors/`  
 e.g.:  
-`~/Library/Preferences/IdeaIC2018.2/colors/`  
+`~/Library/Preferences/IntelliJIdea2019.2/colors/` or `~/Library/Preferences/IdeaIC2018.2/colors/`
 
 The Themes work best with [Material Theme UI](http://www.material-theme.com/).
 This color scheme goes well with the _Atom One Dark_ UI Theme Setting.
@@ -51,19 +54,5 @@ $ ln -s VisualStudioCode/ziggy-stardust ~/.vscode/extensions
 ### iTerm ###
 [Instructions](https://github.com/mbadolato/iTerm2-Color-Schemes#installation-instructions)
 
-**TODO**:
-
-- [x] JetBrains - custom Material Theme
-- [x] IntelliJ
-- [x] AndroidStudio
-- [x] PyCharm
-- [ ] WebStorm
-- [x] iTerm
-- [ ] Vim
-- [x] Atom
-    - [ ] Clean up, publish as separate repo
-- [x] VSCode
-    - [ ] Clean up, publish
-- [x] Sublime
-    - [ ] Clean up
-- [ ] Xcode
+### Xcode ###
+Copy the file to `~/Library/Developer/Xcode/UserData/FontAndColorThemes/`.
