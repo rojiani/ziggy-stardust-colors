@@ -2,7 +2,7 @@
 	"tokenColors": "./ZiggyStardust.tmTheme",
     "colors": {
         "activityBar.background": "#191B1F",
-        "editor.background": "#292D35",
+        "editor.background": "#282C34",
         "editor.findMatchHighlightBackground": "#343943",
         "editor.foreground": "#D2D8E3",
         "editor.lineHighlightBackground": "#2d323d",

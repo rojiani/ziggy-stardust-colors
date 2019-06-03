@@ -6,7 +6,7 @@
     <string>Ziggy Stardust</string>
     <!--
     COLORS:
-    @bg:                    #292d35;
+    @bg:                    #282C34;
     @fg:                    #d2d8e3;
     @blue-purple:           #7a82da;
     @blue:                  #71bfff;
@@ -30,7 +30,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#292d35</string>
+                <string>#282C34</string>
                 <key>caret</key>
                 <string>#82B1FF</string>
                 <key>foreground</key>
