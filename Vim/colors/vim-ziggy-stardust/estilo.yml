@@ -1,0 +1,10 @@
+name: 'ziggy-stardust'
+version: '1.0.0'
+license: 'MIT'
+author: 'Navid Rojiani'
+url: 'https://github.com/rojiani/ziggy-stardust-colors'
+description: 'A dark colorscheme for Vim, inspired by David Bowie'
+colorschemes:
+  - name: ziggy-stardust
+    background: 'dark'
+    palette: ziggy-stardust

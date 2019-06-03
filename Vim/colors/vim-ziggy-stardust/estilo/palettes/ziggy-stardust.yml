@@ -1,0 +1,25 @@
+mono_1: '#d2d8e3'
+mono_2: '#646c7c'
+mono_3: '#5c6370'
+mono_4: '#4b5263'
+
+hue_1: '#5fb9bc'    # cyan
+hue_2: '#71bfff'    # blue
+hue_3: '#7a82da'    # purple
+hue_4: '#aada88'    # green
+
+hue_5: '#ff6480'    # red 1
+hue_5_2: '#ff78f8'  # red 2 (pink)
+
+hue_6: '#ff936a'    # orange 1
+hue_6_2: '#f7745f'  # orange 2
+
+syntax_bg: '#292d35'
+syntax_gutter: '#636d83'
+syntax_cursor: '#2f343a'
+
+syntax_accent: '#528bff'
+
+vertsplit: '#181a1f'
+special_grey: '#3b4048'
+visual_grey: '#3e4452'
