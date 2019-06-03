@@ -1,10 +1,10 @@
-<scheme name="ZiggyStardust" version="142" parent_scheme="Darcula">
+<scheme name="ZiggyStardust-v0.2" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-11-15T19:04:25</property>
-    <property name="ide">AndroidStudio</property>
-    <property name="ideVersion">3.2.1.0</property>
-    <property name="modified">2018-11-26T21:49:48</property>
-    <property name="originalScheme">ZiggyStardust_bg</property>
+    <property name="created">2019-05-13T14:03:51</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2019.1.2.0.0</property>
+    <property name="modified">2019-06-03T17:05:55</property>
+    <property name="originalScheme">ZiggyStardust</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="444444" />
@@ -49,7 +49,7 @@
     <option name="SOFT_WRAP_SIGN_COLOR" value="3b3b3b" />
     <option name="TEARLINE_COLOR" value="393d48" />
     <option name="VISUAL_INDENT_GUIDE" value="343943" />
-    <option name="WHITESPACES" value="414655" />
+    <option name="WHITESPACES" value="5f667a" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d9f5dd" />
   </colors>
   <attributes>
@@ -515,6 +515,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEFAULT_LABEL">
+      <value>
+        <option name="FOREGROUND" value="ffe583" />
+      </value>
+    </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="646c7c" />
@@ -566,7 +571,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="d2d8e3" />
-        <option name="BACKGROUND" value="242527" />
+        <option name="BACKGROUND" value="2f343c" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -787,9 +792,7 @@
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="d9b2d5" />
-        <option name="ERROR_STRIPE_COLOR" value="aeae80" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="9aa4b9" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -807,7 +810,6 @@
       <value>
         <option name="FOREGROUND" value="d2d8e3" />
         <option name="BACKGROUND" value="1d1f26" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
@@ -841,14 +843,29 @@
     </option>
     <option name="JS.FUNCTION_ARROW">
       <value>
-        <option name="FOREGROUND" value="ff6480" />
+        <option name="FOREGROUND" value="7a82da" />
       </value>
     </option>
-    <option name="JS.INVALID_STRING_ESCAPE">
+    <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="BACKGROUND" value="464646" />
-        <option name="EFFECT_COLOR" value="722c40" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="FOREGROUND" value="5fb9bc" />
+      </value>
+    </option>
+    <option name="JS.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ff936a" />
+      </value>
+    </option>
+    <option name="JS.PRIMITIVE.TYPE">
+      <value>
+        <option name="FOREGROUND" value="ff6480" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="5fb9bc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JSON.BRACES">
@@ -913,6 +930,11 @@
         <option name="FOREGROUND" value="5fb9bc" />
       </value>
     </option>
+    <option name="KOTLIN_DOUBLE_COLON">
+      <value>
+        <option name="FOREGROUND" value="ffe583" />
+      </value>
+    </option>
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -929,6 +951,11 @@
     <option name="KOTLIN_ENUM_ENTRY">
       <value>
         <option name="FOREGROUND" value="ff936a" />
+      </value>
+    </option>
+    <option name="KOTLIN_EXCLEXCL">
+      <value>
+        <option name="FOREGROUND" value="ff6480" />
       </value>
     </option>
     <option name="KOTLIN_EXTENSION_FUNCTION_CALL">
@@ -953,11 +980,7 @@
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
       <value />
     </option>
-    <option name="KOTLIN_LABEL">
-      <value>
-        <option name="FOREGROUND" value="ffe583" />
-      </value>
-    </option>
+    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_COLOR" value="7a82da" />
@@ -1180,6 +1203,11 @@
     <option name="OC.STRING">
       <value>
         <option name="FOREGROUND" value="f36e3a" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_FIELD">
+      <value>
+        <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">

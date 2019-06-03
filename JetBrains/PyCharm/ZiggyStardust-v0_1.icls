@@ -1,10 +1,10 @@
-<scheme name="ZiggyStardust" version="142" parent_scheme="Darcula">
+<scheme name="ZiggyStardust-v0.1" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-01-05T18:22:35</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2017.3.2.0.0</property>
-    <property name="modified">2018-11-27T19:00:54</property>
-    <property name="originalScheme">ZiggyStardust-Lighter2</property>
+    <property name="created">2019-05-13T14:29:57</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2018.3.1.0.0</property>
+    <property name="modified">2019-05-13T14:30:02</property>
+    <property name="originalScheme">ZiggyStardust</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="444444" />
@@ -15,7 +15,7 @@
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1c1c1c" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717" />
-    <option name="DOCUMENTATION_COLOR" value="21242b" />
+    <option name="DOCUMENTATION_COLOR" value="1e2228" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
     <option name="FILESTATUS_COPIED" value="659d9a" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -396,7 +396,6 @@
         <option name="FOREGROUND" value="f36e3a" />
       </value>
     </option>
-    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="5fb9bc" />
@@ -723,7 +722,6 @@
         <option name="FOREGROUND" value="a7dbd8" />
       </value>
     </option>
-    <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
     <option name="HAML_RUBY_CODE">
       <value>
         <option name="BACKGROUND" value="252b39" />
@@ -812,7 +810,7 @@
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="71bfff" />
-        <option name="BACKGROUND" value="3f444c" />
+        <option name="BACKGROUND" value="686868" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -831,8 +829,6 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="JFLEX_MACROS_REF">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
@@ -894,7 +890,6 @@
         <option name="FOREGROUND" value="ff6480" />
       </value>
     </option>
-    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
     <option name="KOTLIN_ARROW">
       <value>
         <option name="FOREGROUND" value="7a82da" />
@@ -974,7 +969,6 @@
         <option name="FOREGROUND" value="7a82da" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
       <value />
     </option>
@@ -992,7 +986,6 @@
     <option name="KOTLIN_SMART_CONSTANT">
       <value />
     </option>
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE">
       <value>
         <option name="EFFECT_COLOR" value="71bfff" />
@@ -1011,7 +1004,7 @@
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
-        <option name="BACKGROUND" value="456053" />
+        <option name="BACKGROUND" value="aada88" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1048,7 +1041,6 @@
         <option name="FOREGROUND" value="ff936a" />
       </value>
     </option>
-    <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
@@ -1243,29 +1235,14 @@
         <option name="FOREGROUND" value="219598" />
       </value>
     </option>
-    <option name="PY.BRACES">
+    <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
-      </value>
-    </option>
-    <option name="PY.BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="7a82da" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="ffcb6b" />
-      </value>
-    </option>
-    <option name="PY.COMMA">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="f77669" />
       </value>
     </option>
     <option name="PY.DECORATOR">
@@ -1275,60 +1252,41 @@
     </option>
     <option name="PY.DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="4a4a4a" />
+        <option name="FOREGROUND" value="aada88" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PY.DOT">
+    <option name="PY.DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="f77669" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
-      </value>
-    </option>
-    <option name="PY.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ff5370" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="c792ea" />
-      </value>
-    </option>
-    <option name="PY.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="4a4a4a" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="f78c6c" />
-      </value>
-    </option>
-    <option name="PY.OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
-      </value>
-    </option>
-    <option name="PY.PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="f77669" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="4483aa" />
+      </value>
+    </option>
+    <option name="PY.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="5fb9bc" />
       </value>
     </option>
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="c3e88d" />
+      </value>
+    </option>
+    <option name="PY.STRING.B">
+      <value>
+        <option name="FOREGROUND" value="5fb9bc" />
       </value>
     </option>
     <option name="PY.VALID_STRING_ESCAPE">
@@ -1673,9 +1631,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
-    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TAPESTRY_COMPONENT_TAG">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
