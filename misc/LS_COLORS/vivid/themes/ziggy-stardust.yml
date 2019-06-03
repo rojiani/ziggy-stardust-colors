@@ -1,0 +1,94 @@
+colors:
+  # Theme colors
+  background_color: '282C34'
+  purple: "7A82DA"
+  blue: "71BFFF"
+  pink: "FF78F8"
+  cyan: "5FB9BC"
+  green: "AADA88"
+  orange: "FF936A"
+
+  # Others
+  white: "D2D8E3"
+  black: "363c47"
+  red: "FF6480"
+  gray: "B7BCC5"
+  dimgray: "646C7C"
+  gold: "FFE583"
+  springgreen: "00FF99"
+
+core:
+  regular_file: {}
+
+  directory:
+    foreground: blue
+
+  executable_file:
+    foreground: red
+    font-style: bold
+
+  symlink:
+    foreground: purple
+
+  broken_symlink:
+    foreground: black
+    background: red
+    font-style: bold
+
+  fifo:
+    foreground: black
+    background: cyan
+
+  socket:
+    foreground: black
+    background: pink
+
+  normal_text:
+    {}
+
+text:
+  special:
+    foreground: black
+    background: blue
+
+  todo:
+    font-style: bold
+
+  licenses:
+    foreground: gray
+
+  configuration:
+    foreground: green
+
+  other:
+    foreground: gold
+
+markup:
+  foreground: gold
+
+programming:
+  source:
+    foreground: springgreen
+
+  tooling:
+    foreground: green
+
+    continuous-integration:
+      foreground: blue
+
+media:
+  foreground: orange
+
+office:
+  foreground: blue
+
+archives:
+  foreground: pink
+  font-style: underline
+
+executable:
+  foreground: pink
+  font-style: bold
+
+unimportant:
+  foreground: dimgray
