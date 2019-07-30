@@ -1,22 +1,27 @@
 {
-    "name": "ziggy-stardust",
-    "displayName": "Ziggy Stardust",
-    "description": "Dark color theme with vibrant colors.",
-    "version": "0.0.1",
-    "publisher": "nrojiani",
-    "engines": {
-        "vscode": "^1.19.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Ziggy Stardust",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Ziggy Stardust-color-theme.json"
-            }
-        ]
-    }
+  "name": "ziggy-stardust",
+  "displayName": "Ziggy Stardust",
+  "description": "Dark & Light color themes with vibrant colors.",
+  "version": "1.0.3",
+  "publisher": "nrojiani",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ziggy Stardust Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ziggy-stardust-dark.json"
+      },
+      {
+        "label": "Ziggy Stardust Light",
+        "uiTheme": "vs",
+        "path": "./themes/ziggy-stardust-light.json"
+      }
+    ]
+  }
 }

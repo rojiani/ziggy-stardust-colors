@@ -1,0 +1,9 @@
+{
+  "tokenColors": "./ziggy-stardust-light.tmTheme",
+  "colors": {
+    "editorGutter.background": "#FAFAFA",
+    "editorLineNumber.foreground": "#6e7686",
+    "statusBar.background": "#3C3C3C"
+  },
+  "name": "Ziggy Stardust Light"
+}
